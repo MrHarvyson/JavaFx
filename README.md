@@ -167,6 +167,7 @@ public class HelloController {
       stage.show();
 
       // cerrar ventana
+      //
       // obtiene la fuente del evento
       Node source = (Node) event.getSource();
       // obtener la ventana actual
