@@ -57,11 +57,13 @@ public class Ventana1Controller {
             Stage stage = new Stage();
             stage.show();
 
-            // cerrar ventana
+            // CERRAR VENTANA ------------------------------
+
             // obtiene la fuente del evento
             Node source = (Node) event.getSource();
             // obtener la ventana actual
             stage = (Stage) source.getScene().getWindow();
+            // cierra ventana
             stage.close();
 
         } catch (IOException e) {
