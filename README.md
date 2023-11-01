@@ -6,6 +6,8 @@
     - [Análisis del Controlador](#análisis-del-controlador)
     - [Crear ventana](#crear-ventana)
 
+[ejemplo](wiki/ejemplo.md)
+
 Como ya hemos visto, la aplicación javafx más simple está formada por un archivo main que será el que inicie la
 aplicación y cargue la primera ventana, un archivo fxml (diseño ventana) y su controlador (lógica). Por cada ventana
 nueva que creemos tendremos un FXML y un CONTROLLER.
